@@ -1,0 +1,13 @@
+# Use CPU-only PyTorch wheels (avoids pulling ~3GB of CUDA packages).
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+
+# Deployment/build dependencies.
+# executorch 0.4.0 pins torch==2.5.0 and numpy==1.23.2; torchvision 0.20.0 is the
+# matching release and is required by onnx2torch.
+torch==2.5.0
+torchvision==0.20.0
+numpy==1.23.2
+onnx==1.17.0
+onnx2torch==1.5.15
+executorch==0.4.0

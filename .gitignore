@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Edge Impulse block runner artifacts
+ei-block-data/
+input/
+output/
+out/
+
+# Build artifacts
+deploy.zip
+*.pte

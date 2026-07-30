@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "type": "deploy",
+    "info": {
+        "name": "ExecuTorch (.pte) export",
+        "description": "Packages the trained model into an ExecuTorch program (.pte) with a minimal Python runtime harness, ready for native PyTorch on-device inference on Linux, Android, and MCU targets.",
+        "category": "library",
+        "cliArguments": "",
+        "supportsEonCompiler": false,
+        "mountLearnBlock": false,
+        "showOptimizations": true,
+        "privileged": false,
+        "integrateUrl": "https://github.com/edgeimpulse/executorch-deploy"
+    },
+    "parameters": [
+        {
+            "name": "ExecuTorch backend",
+            "value": "xnnpack",
+            "type": "select",
+            "param": "backend",
+            "help": "Delegate the model to this ExecuTorch backend when lowering to .pte.",
+            "valid": [
+                {
+                    "label": "XNNPACK (CPU, ARM/x86)",
+                    "value": "xnnpack"
+                },
+                {
+                    "label": "Portable (reference, no delegation)",
+                    "value": "portable"
+                }
+            ]
+        }
+    ]
+}
