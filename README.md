@@ -4,7 +4,7 @@ A custom [Edge Impulse deployment block](https://docs.edgeimpulse.com/studio/org
 
 Because ExecuTorch consumes PyTorch programs while Edge Impulse emits TensorFlow/TFLite/ONNX, the block converts the exported **ONNX** model to PyTorch (via `onnx2torch`) and lowers it to a `.pte` with the chosen backend. If conversion tooling is unavailable, it still packages `model.onnx` plus a conversion note so a deploy never hard-fails.
 
-# Compatible Learn Blocks Classification, Timeseries, Object Detection FOMO
+# Compatible Learn Blocks Classification, Timeseries, Object Detection FOMO & KWS
 | Name | link |
 |------|---------|
 | Timeseries | https://github.com/edgeimpulse/executorch-pytorch-timeseries-block |
