@@ -14,11 +14,13 @@ Because ExecuTorch consumes PyTorch programs while Edge Impulse emits TensorFlow
 
 # Deploy - Run on Android :
 
+repo - https://github.com/edgeimpulse/executorch-android-app
+
 Sample apks - https://github.com/edgeimpulse/executorch-android-app/releases/edit/v1.0.0-samples
 
 <img width="4338" height="2720" alt="image" src="https://github.com/user-attachments/assets/49074c98-5a7b-4469-9580-bffc241d735e" />
 
-https://github.com/edgeimpulse/executorch-android-app
+
 
 ## Files
 
