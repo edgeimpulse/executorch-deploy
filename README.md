@@ -10,6 +10,7 @@ Because ExecuTorch consumes PyTorch programs while Edge Impulse emits TensorFlow
 | Timeseries | https://github.com/edgeimpulse/executorch-pytorch-timeseries-block |
 | Classification | https://github.com/edgeimpulse/executorch-pytorch-classification-block |
 | FOMO | https://github.com/edgeimpulse/executorch-pytorch-object-detection-fomo-block |
+| KWS | https://github.com/edgeimpulse/executorch-pytorch-kws-block |
 
 # Deploy - Run on Android :
 https://github.com/edgeimpulse/executorch-android-app
